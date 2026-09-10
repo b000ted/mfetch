@@ -1,12 +1,7 @@
 # mfetch
 A fork of a fork. mfetch is a macOS / Darwin port of [gfetch by kantiankant](https://github.com/kantiankant/gfetch)
 
-# mfetch
-
-A macOS/Darwin port of `gfetch`, a small system-info fetch tool. Same output
-style, ported off Linux-only APIs (`/proc`, `/sys`, glibc's `sysinfo()`) onto
-their macOS equivalents (`sysctl`, Mach host APIs).
-
+# preview
 ```
         .:'                 b000ted@macOS
     __ :'__          -----------
@@ -20,19 +15,12 @@ their macOS equivalents (`sysctl`, Mach host APIs).
                      gpu: Apple M1 (integrated)
 ```
 
-## Lineage
+## credits
 
-- **Original concept**: "Glenda Fetch" by [arwn](https://github.com/arwn) — a
-  9fetch-style system info tool.
-- **C re-implementation**: [gfetch](https://github.com/kantiankant/gfetch) by
-  [kantiankant](https://github.com/kantiankant), targeting Linux via `/proc`,
-  `/sys`, and glibc's `sysinfo()`.
-- **This fork (mfetch)**: adds macOS/Darwin support — `sysctl`-based OS
-  version and CPU detection, Mach host APIs for RAM stats, `kern.boottime`
-  for uptime — since none of the Linux-specific interfaces above exist on
-  Darwin. Also ships a small Terminal.app-style ASCII logo in place of the
-  original art.
-
+- **Original concept**: [Glenda Fetch by arwn](https://github.com/arwn)
+- **C re-implementation**: [gfetch by kantiankant](https://github.com/kantiankant/gfetch)
+  (https://github.com/kantiankant)
+  
 ## Build
 
 Requires a C11 compiler and the Xcode Command Line Tools (`xcode-select
