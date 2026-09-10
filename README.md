@@ -20,9 +20,10 @@ A fork of a fork. mfetch is a macOS / Darwin port of [gfetch by kantiankant](htt
 - **Original concept**: [Glenda Fetch by arwn](https://github.com/arwn)
 - **C re-implementation**: [gfetch by kantiankant](https://github.com/kantiankant/gfetch)
   
-## Build
+## build
 
-Requires a C11 compiler and Xcode Command Line Tools
+requirements: 
+a C11 compiler and Xcode Command Line Tools
 
 ```
 git clone https://github.com/b000ted/mfetch
