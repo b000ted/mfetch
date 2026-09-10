@@ -9,13 +9,13 @@
 #include <sys/statvfs.h>
 #include <dirent.h>
 
-#ifdef __APPLE__
+# #ifdef __APPLE__
 #include <sys/sysctl.h>
 #include <mach/mach.h>
 #include <mach/mach_host.h>
 #else
 #include <sys/sysinfo.h>
-#endif
+# #endif
 
 /* Helpers */
 
