@@ -8,18 +8,55 @@ A fork of a fork. mfetch is a macOS / Darwin port of [gfetch by kantiankant](htt
 
 ## credits
 
-- **Original concept**: [Glenda Fetch by arwn](https://github.com/arwn)
+- **original**: [Glenda Fetch by arwn](https://github.com/arwn)
 - **C re-implementation**: [gfetch by kantiankant](https://github.com/kantiankant/gfetch)
 
 ## build
 
-Requirements:
+requirements:
 
 - A C11 compiler
 - Xcode Command Line Tools
 
-Clone the repository:
-
+clone:
 ```sh
 git clone https://github.com/b000ted/mfetch
 cd mfetch
+```
+
+build:
+```sh
+make
+```
+
+run:
+```sh
+./mfetch
+```
+
+install:
+```sh
+sudo make install
+```
+
+run:
+```sh
+mfetch
+```
+
+uninstall:
+```sh
+sudo make uninstall
+```
+removing the compiled binary from the project directory:
+```sh
+make clean
+```
+
+
+
+
+
+
+
+
