@@ -2,7 +2,7 @@ CC = cc
 CFLAGS = -Wall -Wextra -O2 -std=c11
 PREFIX = /usr/local
 
-mfetch: src/gfetch.c
+mfetch: src/mfetch.c
 	$(CC) $(CFLAGS) -o mfetch src/mfetch.c
 
 install: mfetch
