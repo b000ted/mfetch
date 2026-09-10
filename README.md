@@ -2,7 +2,7 @@
 A fork of a fork. mfetch is a macOS / Darwin port of [gfetch by kantiankant](https://github.com/kantiankant/gfetch)
 
 # preview
-<img width="341" height="154" alt="Screenshot 2026-09-10 at 11 25 59 AM" src="https://github.com/user-attachments/assets/48dddd0f-8d56-45f8-91de-38822a74c050" />
+<img width="418" height="255" alt="mfetch" src="https://github.com/user-attachments/assets/4aaa30b8-ebc9-400c-9f9f-59dcb7c304a1" />
 
 ## credits
 
