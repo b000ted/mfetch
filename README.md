@@ -8,8 +8,8 @@ A fork of a fork. mfetch is a macOS / Darwin port of [gfetch by kantiankant](htt
 
 ## credits
 
-- **original**: [Glenda Fetch by arwn](https://github.com/arwn)
-- **C re-implementation**: [gfetch by kantiankant](https://github.com/kantiankant/gfetch)
+- **Glenda Fetch**: [arwn](https://github.com/arwn)
+- **gfetch**: [kantiankant](https://github.com/kantiankant)
 
 ## build
 
